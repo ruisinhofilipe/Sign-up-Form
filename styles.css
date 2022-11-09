@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left_container {
+    width: 30vw;
+    background-image: url(img/football.jpg);
+    background-position: 45%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    top: 25.5%;
+    color: white;
+}
+
+.banner>img {
+    max-height: 90%;
+}
+
+.banner span {
+    font-size: 2rem;
+    text-transform: uppercase;
+}

@@ -37,3 +37,94 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+.right_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    width: 70vw;
+}
+
+.right_container>.description {
+    max-width: 65%;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+.right_container>.description>p,
+.right_container>.description>span {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.form_container {
+    display: flex;
+    width: 100%;
+}
+
+form {
+    margin-bottom: 2.5rem;
+    box-shadow: 0px 2px 10px rgb(85, 85, 85);
+}
+
+form p {
+    margin-left: 5rem;
+    font-size: 1.8rem;
+    color: rgb(75, 74, 74);
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.input_container label {
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.input_container input {
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.bottom {
+    margin-left: 5rem;
+}
+
+.bottom button {
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: rgb(9, 109, 9);
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    transition: 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+.bottom button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.bottom p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* letter-spacing: 0.01rem; */
+}
+
+.bottom a {
+    text-decoration: none;
+    color: rgb(9, 109, 9);
+}
